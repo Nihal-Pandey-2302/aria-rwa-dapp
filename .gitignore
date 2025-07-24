@@ -1,0 +1,15 @@
+# Node / Frontend Dependencies
+/aria-frontend/node_modules
+/aria-frontend/dist
+/aria-frontend/.env
+
+# Python / Backend Dependencies
+/aria-backend/venv
+/aria-backend/.env
+/aria-backend/__pycache__/
+/aria-backend/*.pyc
+
+# Rust / CosmWasm Contract Artifacts
+/verified-rwa-contract/target
+/verified-rwa-contract/artifacts
+/verified-rwa-contract/Cargo.lock
