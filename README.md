@@ -4,7 +4,7 @@
 
 ### *Trust, tokenized. Liquidity, unlocked.*
 
-**[▶️ Watch the 3-Minute Winning Demo Video](https://www.google.com/search?q=./docs/demo.mp4)**
+**[▶️ Watch the 5-Minute Demo Video](https://youtu.be/kHUxSGeolEs)**
 
 -----
 
