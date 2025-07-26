@@ -15,7 +15,7 @@
 * **Technology Stack:**
   * 💻 **Frontend:** React, Vite, cosmjs, Chakra UI, Keplr Wallet
   * ⚙️ **Backend:** Python, Flask
-  * 🧠 **AI:** Google Gemini 1.5 Pro
+  * 🧠 **AI:** Google Gemini 2.5 Pro
   * ⛓️ **Blockchain:** Andromeda Testnet (Galileo-4), CosmWasm
   * 🧩 **aOS/ADOs:** Custom Contract, CW721, Marketplace, Splitter, **CW20 Token ($ARIA)**, **CW20 Staking**
   * 📦 **Decentralized Storage:** IPFS (via Pinata)
