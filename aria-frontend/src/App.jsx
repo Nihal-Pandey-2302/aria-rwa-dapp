@@ -38,7 +38,8 @@ const GAS_PRICE_STEP = {
 };
 
 // Backend API URL
-const BACKEND_URL = "http://127.0.0.1:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://127.0.0.1:5000";
+
 
 // --- Contract Addresses ---
 const VERIFIED_RWA_CONTRACT_ADDRESS = "andr132hquqqs0m64hthpv6wpjwgnmgpr2exrwvhw9kqpqeh4dk4ls4tq3ldsjm";
