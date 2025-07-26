@@ -7,5 +7,6 @@ opencv-python-headless
 pypdf
 Pillow
 gunicorn
+Flask-Cors
 
 # libzbar0 System
