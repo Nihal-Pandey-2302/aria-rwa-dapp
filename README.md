@@ -59,6 +59,7 @@ We have successfully built a polished, full-stack dApp that showcases the true c
 ## 🗺️ Architecture & Workflow
 
 Our architecture is a seamless integration of off-chain AI processing with on-chain composable smart contracts, made transparent to the user through our Live Workflow Visualizer.
+![App Screenshot](https://github.com/Nihal-Pandey-2302/aria-rwa-dapp/blob/main/Flowchart_final.png)
 
 -----
 
