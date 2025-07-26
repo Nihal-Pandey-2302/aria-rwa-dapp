@@ -9,4 +9,4 @@ pyzbar
 opencv-python-headless
 pypdf
 Pillow
-libzbar0
+# libzbar0 System
