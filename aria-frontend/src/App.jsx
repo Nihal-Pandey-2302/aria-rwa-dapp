@@ -1,14 +1,15 @@
 import { useState, useCallback } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Container, VStack, Alert, AlertIcon } from '@chakra-ui/react';
+import { Container, VStack, Alert, AlertIcon, Heading } from '@chakra-ui/react';
 
 // Page Imports
 import HomePage from './pages/HomePage';
 import StakingPage from './pages/StakingPage';
+import MarketplacePage from './pages/MarketplacePage'; // 1. Import the new page
 
 // Component Imports
 import Header from './components/Header';
-import Navbar from './components/Navbar'; // <-- Import your Navbar
+import Navbar from './components/Navbar';
 
 // Constants
 import {
@@ -59,14 +60,23 @@ function App() {
     <Container maxW="container.xl" py={4}>
       <VStack spacing={4} align="stretch">
         <Header address={address} loading={loading} onConnect={connectWallet} onDisconnect={disconnectWallet} />
-        <Navbar /> {/* <-- Render your Navbar here */}
+        <Navbar />
         {error && <Alert status="error" borderRadius="md"><AlertIcon />{error}</Alert>}
         
-        {/* The Routes component will render the correct page below the header and navbar */}
         <Routes>
           <Route path="/" element={<HomePage address={address} />} />
+
+          {/* 2. Add the route for the Marketplace page */}
+          <Route 
+            path="/marketplace" 
+            element={
+              address 
+                ? <MarketplacePage address={address} /> 
+                : <VStack><Heading size="md">Please connect your wallet to view the marketplace.</Heading></VStack>
+            } 
+          />
+
           <Route path="/staking" element={<StakingPage address={address} />} />
-          {/* No route is needed for Governance since your Navbar handles the "Coming Soon" UI */}
         </Routes>
       </VStack>
     </Container>

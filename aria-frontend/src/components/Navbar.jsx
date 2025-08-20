@@ -18,6 +18,9 @@ const Navbar = () => {
       <Link as={NavLink} to="/" style={({ isActive }) => isActive ? activeStyle : undefined} color={inactiveLinkColor}>
         Mint RWA
       </Link>
+      <Link as={NavLink} to="/marketplace" style={({ isActive }) => isActive ? activeStyle : undefined} color={inactiveLinkColor}>
+        Marketplace
+      </Link>
       <Link as={NavLink} to="/staking" style={({ isActive }) => isActive ? activeStyle : undefined} color={inactiveLinkColor}>
         Staking
       </Link>
